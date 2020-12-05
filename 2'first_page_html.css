@@ -21,7 +21,7 @@ header img {
 
 #navbar a:link {
   text-decoration: none;
-  color: #d4923b;
+  color: rgb(245, 180, 239);
   margin-right: 5px;
   float: center;
   padding: 6px;
@@ -34,7 +34,8 @@ header img {
 }
 
 #navbar a:hover {
-  background-color: rgb(252, 210, 119);
+  color: rgb(97, 10, 138);
+  background-color: rgb(221, 144, 56);
 }
 
 #navbar a:active {
@@ -42,7 +43,7 @@ header img {
 }
 
 #navbar a:visited {
-  background-color: rgb(250, 229, 41);
+  background-color: rgb(247, 230, 82);
 }
 
 body {
