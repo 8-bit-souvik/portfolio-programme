@@ -1,0 +1,9 @@
+.articles{margin:auto; padding:25px; display:flex; align-items:center; justify-content: center;}
+
+.total_area{ margin:50px;}
+
+.articles img{ border-radius: 10px; border:2px solid black; }
+
+article{ padding-inline: 60px;}
+
+.reverserow{flex-direction: row-reverse;}
