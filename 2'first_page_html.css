@@ -87,3 +87,14 @@ body {
 .contentin::first-letter {
   font-size: 200%;
 }
+
+#sign_btn:hover{
+height: 80px;
+font-size: 15px;
+padding:  4px;
+box-shadow: 1px 1px 0 #fff;
+}
+
+#sign_btn:after{ animatiom: shine .5s .2s
+ease-in-out forward
+}
