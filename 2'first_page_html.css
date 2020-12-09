@@ -61,6 +61,8 @@ body {
   opacity: .9;
   background-color: #cccccc;
   background-size: cover;
+  height:300px;
+  overflow-y: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,6 +97,6 @@ padding:  4px;
 box-shadow: 1px 1px 0 #fff;
 }
 
-#sign_btn:after{ animatiom: shine .5s .2s
-ease-in-out forward
+#sign_btn:after{ animation: shine .5s .2s
+ease-in-out forward;
 }
