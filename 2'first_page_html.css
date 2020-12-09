@@ -47,9 +47,6 @@ header img {
 }
 
 body {
-  background-color: antiquewhite;
-
-  background-size: cover;
   background-repeat: no-repeat;
   max-width:fit-content;
   overflow-x:hidden;
