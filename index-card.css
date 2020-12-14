@@ -13,11 +13,13 @@
             display: flex;
         }
 
-
+article0{
+    padding:0px 20px;
+}
 
         .card {
             border: 2px solid rgb(238, 255, 249);
-            background-color: aquamarine;
+            background-color: rgb(185, 248, 227);
             display: flex;
             max-width: 350px;
             max-height: 120px;
@@ -40,13 +42,14 @@
         }
 
         .feature {
-            background-color: rgb(255, 255, 0);
+            background-color: rgba(255, 255, 0, 0.76);
             max-width: cover;
             position: relative;
-            bottom: 5px;
+            top: 5px;
             text-align: center;
             color: rgb(255, 2, 158);
             font-weight: bolder;
+            border-radius:5px;
         }
 
 
