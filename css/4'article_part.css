@@ -1,6 +1,6 @@
 .articles{
      margin:auto;
-     padding:25px 25px;
+     padding:0 5%;
      display:flex;
      align-items:center;
      justify-content: center;
@@ -14,15 +14,15 @@
       margin:50px;
 }
 
-.articles img{ 
-        border-radius: 10px;
-        border:2px solid black;
-     }
 
 article{ 
-     padding-inline: 60px;
+     padding:5%;
 }
 
 .reverserow{
     flex-direction: row-reverse;
+}
+
+.articles > p {
+     padding:15%
 }

@@ -3,7 +3,7 @@ var TxtType = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
+  this.period = parseInt(period, 1) || 2000;
   this.txt = '';
   this.tick();
   this.isDeleting = false;
@@ -14,15 +14,15 @@ TxtType.prototype.tick = function () {
   var fullTxt = this.toRotate[i];
 
   if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
+    this.txt = fullTxt.substring(0, this.txt.length - 3);
   } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
+    this.txt = fullTxt.substring(0, this.txt.length + 2);
   }
 
   this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
   var that = this;
-  var delta = 200 - Math.random() * 100;
+  var delta =  100;
 
   if (this.isDeleting) { delta /= 2; }
 
@@ -52,7 +52,7 @@ window.onload = function () {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid orange}";
   document.body.appendChild(css);
 };
 
